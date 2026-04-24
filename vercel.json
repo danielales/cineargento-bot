@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "functions": {
+    "api/webhook.ts": {
+      "maxDuration": 30
+    }
+  },
+  "rewrites": [
+    {
+      "source": "/api/webhook",
+      "destination": "/api/webhook.ts"
+    }
+  ]
+}
